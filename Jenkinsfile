@@ -42,7 +42,7 @@ pipeline {
             emailext(
                 subject: 'Pipeline Successful',
                 body: 'The Jenkins pipeline has completed successfully.',
-                to: 's222406632@deakin.edu.au',
+                to: 'madhushihidellarachchi@gmail.com',
                 attachLog: true
             )
         }
@@ -50,7 +50,7 @@ pipeline {
             emailext(
                 subject: 'Pipeline Failed',
                 body: 'The Jenkins pipeline has failed. Please check the logs.',
-                to: 's222406632@deakin.edu.au',
+                to: 'madhushihidellarachchi@gmail.com',
                 attachLog: true
             )
         }
